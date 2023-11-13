@@ -1,0 +1,20 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing sb_tools.egg-info/PKG-INFO
+writing dependency_links to sb_tools.egg-info/dependency_links.txt
+writing entry points to sb_tools.egg-info/entry_points.txt
+writing requirements to sb_tools.egg-info/requires.txt
+writing top-level names to sb_tools.egg-info/top_level.txt
+reading manifest file 'sb_tools.egg-info/SOURCES.txt'
+writing manifest file 'sb_tools.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sbreande/Workspaces/devbot/install/sb_tools/lib/python3.10/site-packages/sb-tools.egg-link (link to .)
+Installing color_driver script to /home/sbreande/Workspaces/devbot/install/sb_tools/lib/sb_tools
+Installing color_publisher script to /home/sbreande/Workspaces/devbot/install/sb_tools/lib/sb_tools
+
+Installed /home/sbreande/Workspaces/devbot/build/sb_tools
+running install_data

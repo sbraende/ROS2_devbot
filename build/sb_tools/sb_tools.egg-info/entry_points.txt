@@ -1,0 +1,4 @@
+[console_scripts]
+color_driver = sb_tools.color_driver:main
+color_publisher = sb_tools.color_publisher:main
+

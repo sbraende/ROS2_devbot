@@ -1,0 +1,22 @@
+[0.342s] Invoking command in '/home/sbreande/Workspaces/devbot/build/sb_tools': PYTHONPATH=/home/sbreande/Workspaces/devbot/build/sb_tools/prefix_override:/home/sbreande/Workspaces/devbot/install/sb_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sbreande/Workspaces/devbot/build/sb_tools/build --no-deps install_data
+[0.465s] running develop
+[0.465s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.465s]   warnings.warn(
+[0.465s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.465s]   warnings.warn(
+[0.529s] running egg_info
+[0.529s] writing sb_tools.egg-info/PKG-INFO
+[0.529s] writing dependency_links to sb_tools.egg-info/dependency_links.txt
+[0.529s] writing entry points to sb_tools.egg-info/entry_points.txt
+[0.530s] writing requirements to sb_tools.egg-info/requires.txt
+[0.530s] writing top-level names to sb_tools.egg-info/top_level.txt
+[0.531s] reading manifest file 'sb_tools.egg-info/SOURCES.txt'
+[0.531s] writing manifest file 'sb_tools.egg-info/SOURCES.txt'
+[0.532s] running build_ext
+[0.532s] Creating /home/sbreande/Workspaces/devbot/install/sb_tools/lib/python3.10/site-packages/sb-tools.egg-link (link to .)
+[0.532s] Installing key_publisher script to /home/sbreande/Workspaces/devbot/install/sb_tools/lib/sb_tools
+[0.532s] 
+[0.532s] Installed /home/sbreande/Workspaces/devbot/build/sb_tools
+[0.532s] running install_data
+[0.532s] copying package.xml -> /home/sbreande/Workspaces/devbot/install/sb_tools/share/sb_tools
+[0.550s] Invoked command in '/home/sbreande/Workspaces/devbot/build/sb_tools' returned '0': PYTHONPATH=/home/sbreande/Workspaces/devbot/build/sb_tools/prefix_override:/home/sbreande/Workspaces/devbot/install/sb_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sbreande/Workspaces/devbot/build/sb_tools/build --no-deps install_data
