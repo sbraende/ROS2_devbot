@@ -11,7 +11,7 @@ class KeyPublisher(Node):
         super().__init__('color_publisher')
         self.publisher_ = self.create_publisher(String, 'led_color', 10)
         self.declare_parameter('led_color_param', DEFAULT_COLOR)
-        timer_period = 1 # Seconds
+        timer_period = 4 # Seconds
         self.timer = self.create_timer(timer_period, self.keys)
     
     def keys(self):

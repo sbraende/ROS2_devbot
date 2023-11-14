@@ -1,0 +1,23 @@
+[2.331s] Invoking command in '/home/sbraende/Workspace/ROS2_devbot/build/sb_tools': PYTHONPATH=/home/sbraende/Workspace/ROS2_devbot/build/sb_tools/prefix_override:/home/sbraende/Workspace/ROS2_devbot/install/sb_tools/lib/python3.10/site-packages: /usr/bin/python3 setup.py develop --editable --build-directory /home/sbraende/Workspace/ROS2_devbot/build/sb_tools/build --no-deps install_data
+[3.233s] running develop
+[3.239s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.240s]   warnings.warn(
+[3.245s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.245s]   warnings.warn(
+[3.651s] running egg_info
+[3.652s] writing sb_tools.egg-info/PKG-INFO
+[3.653s] writing dependency_links to sb_tools.egg-info/dependency_links.txt
+[3.654s] writing entry points to sb_tools.egg-info/entry_points.txt
+[3.654s] writing requirements to sb_tools.egg-info/requires.txt
+[3.655s] writing top-level names to sb_tools.egg-info/top_level.txt
+[3.662s] reading manifest file 'sb_tools.egg-info/SOURCES.txt'
+[3.665s] writing manifest file 'sb_tools.egg-info/SOURCES.txt'
+[3.671s] running build_ext
+[3.671s] Creating /home/sbraende/Workspace/ROS2_devbot/install/sb_tools/lib/python3.10/site-packages/sb-tools.egg-link (link to .)
+[3.675s] Installing color_driver script to /home/sbraende/Workspace/ROS2_devbot/install/sb_tools/lib/sb_tools
+[3.676s] Installing color_publisher script to /home/sbraende/Workspace/ROS2_devbot/install/sb_tools/lib/sb_tools
+[3.677s] 
+[3.678s] Installed /home/sbraende/Workspace/ROS2_devbot/build/sb_tools
+[3.678s] running install_data
+[3.679s] copying package.xml -> /home/sbraende/Workspace/ROS2_devbot/install/sb_tools/share/sb_tools
+[3.805s] Invoked command in '/home/sbraende/Workspace/ROS2_devbot/build/sb_tools' returned '0': PYTHONPATH=/home/sbraende/Workspace/ROS2_devbot/build/sb_tools/prefix_override:/home/sbraende/Workspace/ROS2_devbot/install/sb_tools/lib/python3.10/site-packages: /usr/bin/python3 setup.py develop --editable --build-directory /home/sbraende/Workspace/ROS2_devbot/build/sb_tools/build --no-deps install_data

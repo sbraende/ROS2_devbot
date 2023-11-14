@@ -1,0 +1,5 @@
+# rosdep.yaml
+rpi-gpio:
+  debian:
+    packages:
+      - python3-rpi.gpio
