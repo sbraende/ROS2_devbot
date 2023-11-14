@@ -13,7 +13,6 @@
   <test_depend>python3-pytest</test_depend>
   <exec_depend>ros2launch</exec_depend>
   <exec_depend>time</exec_depend>
-  <exec_depend>lgpio</exec_depend>
 
   <export>
     <build_type>ament_python</build_type>

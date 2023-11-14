@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.001679] (sb_tools) JobQueued: {'identifier': 'sb_tools', 'dependencies': OrderedDict()}
+[0.002292] (sb_tools) JobStarted: {'identifier': 'sb_tools'}
+[0.099153] (-) TimerEvent: {}
+[0.199775] (-) TimerEvent: {}
+[0.300398] (-) TimerEvent: {}
+[0.401699] (-) TimerEvent: {}
+[0.502422] (-) TimerEvent: {}
+[0.603274] (-) TimerEvent: {}
+[0.703922] (-) TimerEvent: {}
+[0.804645] (-) TimerEvent: {}
+[0.905290] (-) TimerEvent: {}
+[1.005951] (-) TimerEvent: {}
+[1.106565] (-) TimerEvent: {}
+[1.210294] (-) TimerEvent: {}
+[1.311187] (-) TimerEvent: {}
+[1.411931] (-) TimerEvent: {}
+[1.513146] (-) TimerEvent: {}
+[1.613824] (-) TimerEvent: {}
+[1.716878] (-) TimerEvent: {}
+[1.817542] (-) TimerEvent: {}
+[1.918274] (-) TimerEvent: {}
+[2.019072] (-) TimerEvent: {}
+[2.119808] (-) TimerEvent: {}
+[2.220588] (-) TimerEvent: {}
+[2.321237] (-) TimerEvent: {}
+[2.421931] (-) TimerEvent: {}
+[2.522692] (-) TimerEvent: {}
+[2.623364] (-) TimerEvent: {}
+[2.724011] (-) TimerEvent: {}
+[2.824784] (-) TimerEvent: {}
+[2.925802] (-) TimerEvent: {}
+[3.026566] (-) TimerEvent: {}
+[3.127693] (-) TimerEvent: {}
+[3.148763] (sb_tools) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/sbraende/Workspace/ROS2_devbot/build/sb_tools/build', '--no-deps', 'install_data'], 'cwd': '/home/sbraende/Workspace/ROS2_devbot/build/sb_tools', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sbraende', 'SSH_CLIENT': '2a01:799:152d:900:5c0c:b53c:1ba6:54d2 54757 22', 'LC_TIME': 'nb_NO.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sbraende/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/sbraende/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sbraende', 'TERM_PROGRAM_VERSION': '1.84.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5600ee01-6956-4b43-990b-53808101cdb9.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sbraende/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'nb_NO.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/sbraende/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/sbraende/Workspace/ROS2_devbot/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sbraende', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '54', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/sbraende/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'nb_NO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'nb_NO.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-5632ea3892.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sbraende/Workspace/ROS2_devbot/install/sb_tools:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'nb_NO.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nb_NO.UTF-8', 'LC_IDENTIFICATION': 'nb_NO.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sbraende/Workspace/ROS2_devbot/build/sb_tools', 'SSH_CONNECTION': '2a01:799:152d:900:5c0c:b53c:1ba6:54d2 54757 2a01:799:152d:900:86a9:54c0:14ba:72d1 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sbraende/Workspace/ROS2_devbot/build/sb_tools/prefix_override:/home/sbraende/Workspace/ROS2_devbot/install/sb_tools/lib/python3.10/site-packages:/home/sbraende/Workspace/ROS2_devbot/build/sb_tools:/home/sbraende/Workspace/ROS2_devbot/install/sb_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'nb_NO.UTF-8', 'LC_PAPER': 'nb_NO.UTF-8', 'COLCON': '1'}, 'shell': False}
+[3.227866] (-) TimerEvent: {}
+[3.328708] (-) TimerEvent: {}
+[3.429495] (-) TimerEvent: {}
+[3.530189] (-) TimerEvent: {}
+[3.630937] (-) TimerEvent: {}
+[3.731640] (-) TimerEvent: {}
+[3.832336] (-) TimerEvent: {}
+[3.933098] (-) TimerEvent: {}
+[4.033815] (-) TimerEvent: {}
+[4.134476] (-) TimerEvent: {}
+[4.235138] (-) TimerEvent: {}
+[4.268053] (sb_tools) StdoutLine: {'line': b'running develop\n'}
+[4.269567] (sb_tools) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.270190] (sb_tools) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.274509] (sb_tools) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.275071] (sb_tools) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.335317] (-) TimerEvent: {}
+[4.435997] (-) TimerEvent: {}
+[4.536693] (-) TimerEvent: {}
+[4.637337] (-) TimerEvent: {}
+[4.738034] (-) TimerEvent: {}
+[4.838707] (-) TimerEvent: {}
+[4.939394] (-) TimerEvent: {}
+[5.000313] (sb_tools) StdoutLine: {'line': b'running egg_info\n'}
+[5.001079] (sb_tools) StdoutLine: {'line': b'writing sb_tools.egg-info/PKG-INFO\n'}
+[5.002080] (sb_tools) StdoutLine: {'line': b'writing dependency_links to sb_tools.egg-info/dependency_links.txt\n'}
+[5.002946] (sb_tools) StdoutLine: {'line': b'writing entry points to sb_tools.egg-info/entry_points.txt\n'}
+[5.003758] (sb_tools) StdoutLine: {'line': b'writing requirements to sb_tools.egg-info/requires.txt\n'}
+[5.004441] (sb_tools) StdoutLine: {'line': b'writing top-level names to sb_tools.egg-info/top_level.txt\n'}
+[5.011828] (sb_tools) StdoutLine: {'line': b"reading manifest file 'sb_tools.egg-info/SOURCES.txt'\n"}
+[5.014850] (sb_tools) StdoutLine: {'line': b"writing manifest file 'sb_tools.egg-info/SOURCES.txt'\n"}
+[5.020143] (sb_tools) StdoutLine: {'line': b'running build_ext\n'}
+[5.021021] (sb_tools) StdoutLine: {'line': b'Creating /home/sbraende/Workspace/ROS2_devbot/install/sb_tools/lib/python3.10/site-packages/sb-tools.egg-link (link to .)\n'}
+[5.024662] (sb_tools) StdoutLine: {'line': b'Installing color_driver script to /home/sbraende/Workspace/ROS2_devbot/install/sb_tools/lib/sb_tools\n'}
+[5.025667] (sb_tools) StdoutLine: {'line': b'Installing color_publisher script to /home/sbraende/Workspace/ROS2_devbot/install/sb_tools/lib/sb_tools\n'}
+[5.027019] (sb_tools) StdoutLine: {'line': b'\n'}
+[5.027609] (sb_tools) StdoutLine: {'line': b'Installed /home/sbraende/Workspace/ROS2_devbot/build/sb_tools\n'}
+[5.028069] (sb_tools) StdoutLine: {'line': b'running install_data\n'}
+[5.028468] (sb_tools) StdoutLine: {'line': b'copying package.xml -> /home/sbraende/Workspace/ROS2_devbot/install/sb_tools/share/sb_tools\n'}
+[5.039723] (-) TimerEvent: {}
+[5.141085] (-) TimerEvent: {}
+[5.162339] (sb_tools) CommandEnded: {'returncode': 0}
+[5.241335] (-) TimerEvent: {}
+[5.342051] (-) TimerEvent: {}
+[5.442843] (-) TimerEvent: {}
+[5.468368] (sb_tools) JobEnded: {'identifier': 'sb_tools', 'rc': 0}
+[5.471372] (-) EventReactorShutdown: {}
